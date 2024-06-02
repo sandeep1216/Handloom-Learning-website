@@ -1,0 +1,71 @@
+/* Resetting default margin and padding */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.handloom-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.handloom-item {
+  width: 30%;
+  margin: 15px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.handloom-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.handloom-item h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.handloom-item p {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.handloom-item a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.handloom-item a:hover {
+  background-color: #555;
+}
